@@ -1,0 +1,38 @@
+#content {
+    /*margin: 5%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+
+#pic {
+    width: 45%;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 36px;
+    color: #BC6C25;
+}
+
+#contact-info-picture {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+#contact-info {
+    border: 2px #FEFAE0 solid;
+    padding : 5%;
+    font-size: large;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height:200%;
+    vertical-align: middle;
+}

@@ -1,0 +1,140 @@
+/*white :     #FEFAE0       */
+/*yellow :    #DDA15E       */
+/*orange :    #BC6C25       */
+/*maron :     #563635       */
+/*brown :     #231F20       */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;900&display=swap');
+
+html {
+    font-family: 'Playfair Display', serif;
+    background-color: #231F20;
+    color: #FEFAE0;
+}
+
+#main-div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#side-menu {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../statics/side-menu.png");
+    background-size: 100% 100%;
+    width: 27%;
+    height: 100%;
+    position: fixed;
+}
+
+#right-div {
+    width: 90%;
+    min-height: 100%;
+    margin-left: 25%;
+    margin-right: 0;
+}
+
+#header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#time {
+    top: 0;
+    right: 0;
+    /*padding: 15px;*/
+    font-size: small;
+}
+
+#header {
+    flex-direction: row;
+    text-align: center;
+    font-size: 300%;
+}
+
+#time {
+    position: absolute;
+}
+
+#header > a {
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #FEFAE0;
+    color: inherit;
+    font-family: inherit;
+    padding: 10px;
+    font-size: inherit;
+}
+
+button:hover {
+    border: 1px solid #BC6C25;
+    color: #BC6C25;
+}
+
+textarea, input {
+    font-family: inherit;
+    font-size: medium;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    margin: 30px 150px 100px 15px;
+}
+
+#side-menu > .links {
+    margin: 10px 150px 50px 15px;
+    color: #231F20;
+    text-decoration: none;
+}
+
+a.active:hover {
+    border-bottom: 1px solid #BC6C25;
+}
+
+a.active {
+    border-bottom: 1px solid #231F20;
+    margin-bottom: 44px;
+    padding: 3px;
+}
+
+#side-menu > a:hover {
+    color: #BC6C25;
+}
+
+#footer {
+    /*background-color: rgba(86,54,53,1);*/
+    /*border-top: 1px solid #FEFAE0;*/
+    /*background-color: rgba(35, 31, 32, 0.4);*/
+    background: rgb(35,31,32);
+    background: linear-gradient(180deg, rgba(35,31,32,1) 0%, rgba(86,54,53,0.4) 59%);
+    float: right;
+    flex-direction: column;
+    line-height: 125%;
+    padding: 5% 2% 2% 2%;
+    width: 90%;
+    z-index: 0;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-size: small;
+}
+
+a {
+    color: #FEFAE0;
+    text-decoration: none;
+}
