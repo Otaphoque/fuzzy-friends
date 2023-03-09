@@ -52,9 +52,10 @@ const displayAnimals = () => {
             card += `
             <div class="column">
                 <img alt="cat sitting on someone's lap and being pet" class="image" src="pets/${pets[k].name}.jpg">
-                <a class="square"><div class="information"><p class="title">My name is ${pets[k].name} and I am ${pets[k].age}.</p>
-                <br />Breed: ${pets[k].breed}<br />Gender: ${pets[k].gender}<br />${pets[k].okWith}</div>
+                <a class="square">
                 <button class="interested">Interested</button>
+                <div class="information"><p class="title">My name is ${pets[k].name} and I am ${pets[k].age}.</p>
+                <br />Breed: ${pets[k].breed}<br />Gender: ${pets[k].gender}<br />${pets[k].okWith}</div>
                 </a>
             </div>`
         }
