@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fuzzy Friends</title>
+    <link href="stylesheets/give-pet.css" rel="stylesheet">
+    <link href="stylesheets/main.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <script src="js/give-pet.js"></script>
+</head>
+<body onload="time();">
+<div id="general-div">
+    <div id="main-div">
+        <div id="side-menu">
+
+            <div id="logo">
+                <a href="index.html">
+                    <img alt="Logo" height="100" src="statics/logo.png" width="117">
+                </a>
+            </div>
+
+            <a class="links" href="index.html">Home Page</a>
+            <a class="links" href="browse-pets.html">Browse Pets</a>
+            <a class="links" href="find-pet.html">Find a Pet</a>
+            <a class="links active" href="give-pet.html">Give a Pet</a>
+            <a class="links" href="pet-care.html">Pet Care</a>
+            <a class="links" href="contact-us.html">Contact Us</a>
+
+        </div>
+
+        <div id="right-div">
+            <div id="header">
+                <a id="header-title" href="index.html">Fuzzy Friends</a>
+                <div id="time"></div>
+            </div>
+
+            <div id="content">
+
+                <h1>Re-home a pet Request Form</h1>
+
+                <form>
+
+                    <fieldset>
+
+                        <div class="section-title">
+                            <p><span>Fuzzy Friend Information</span></p>
+                        </div>
+
+                        <br>
+
+                        <label>Animal:</label>
+                        <input id="cat" name="animal" type="radio" value="cat">
+                        <label for="cat">Cat</label>
+                        <input id="dog" name="animal" type="radio" value="dog">
+                        <label for="dog">Dog</label>
+                        <br>
+
+                        <label for="breed">Breed:</label>
+                        <input id="breed" name="breed" type="text">
+                        <br>
+
+                        <label for="age">Preferred age</label>
+                        <select id="age" name="age">
+                            <option>Less than a year old</option>
+                            <option>1-3 years</option>
+                            <option>3-7 years</option>
+                            <option>7-12 years</option>
+                            <option>12+ years</option>
+                        </select><br>
+
+                        <label>Pet gender:</label>
+                        <input id="male" name="gender" type="radio" value="male">
+                        <label for="male">Male</label>
+                        <input id="female" name="gender" type="radio" value="female">
+                        <label for="female">Female</label>
+                        <br>
+
+                        <label id="type">Gets along with...</label>
+                        <input id="cats" type="checkbox"><label for="cats">cats</label>
+                        <input id="dogs" type="checkbox"><label for="dogs">dogs</label>
+                        <input id="other-animals" type="checkbox"><label for="other-animals">other animals</label>
+                        <input id="small-children" type="checkbox"><label for="small-children">small children</label>
+                        <br>
+
+                        <label for="comments">Comments:</label>
+                        <textarea cols="50" id="comments" name="comments" rows="1">Enter your comments...</textarea>
+                        <br>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <div class="section-title">
+                            <p><span>Owner Information</span></p>
+                        </div>
+
+                        <br>
+
+                        <label for="first-name">First Name:</label>
+                        <input id="first-name" name="first-name" type="text">
+                        <br>
+
+                        <label for="last-name">Last Name:</label>
+                        <input id="last-name" name="last-name" type="text">
+                        <br>
+
+                        <label for="email">Email Address:</label>
+                        <input id="email" name="email" type="email">
+                        <br>
+
+                    </fieldset>
+
+                    <div class="buttons">
+                        <button type="submit" onclick="checkForm()">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+    <div id="footer">
+        Copyright 2023 by ©Constance Prevot. All Rights Reserved.<br>
+        Website powered by HTML & CSS & JavaScript<br>
+        All images used are free license
+        <u><a onclick="alert('We promise that your information will not be used or misused and also that the website ' +
+         ' protects builder from any incorrect information posted by a pet owner.')">Privacy
+            Statement</a></u>
+    </div>
+
+</div>
+
+</body>
+</html>

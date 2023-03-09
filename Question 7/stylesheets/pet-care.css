@@ -1,0 +1,85 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+
+#basic-care {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 30%;
+}
+
+#additional-tips {
+    width: 90%;
+}
+
+#cat-care, #dog-care {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 0 0;
+    max-width: 100%;
+}
+
+#cat-pic {
+    padding: 0 5% 0 0;
+}
+
+#dog-pic {
+    padding: 0 0 0 5%;
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+#right-div {
+    margin: 0;
+    padding: 0;
+}
+
+.titles:not(#main) {
+    padding-bottom: 20%;
+}
+
+.titles {
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+#basic-care, .tips {
+    border: 2px #FEFAE0 solid;
+    padding : 5%;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+}
+
+#header > a {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 36px;
+    color: #BC6C25;
+}
+
+#basic-care {
+    width: 80%;
+}
+
+.sources {
+    font-size: x-small;
+}
