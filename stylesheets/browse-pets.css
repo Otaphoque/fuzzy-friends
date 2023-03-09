@@ -39,6 +39,7 @@
     text-decoration: none;
     margin-top: 275px;
     position: absolute;
+    z-index: 12;
 }
 
 .interested:hover {
@@ -51,7 +52,7 @@
     color: #FEFAE0;
 }
 
-.square:hover:not(.interested) {
+.square:hover > .information {
     animation: fadeIn .5s;
 }
 
