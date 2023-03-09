@@ -36,8 +36,8 @@ const defaultPet4 = new Pet("dog", "Fredo", "husky", 1, "male", ["Children", "Ca
 const defaultPet5 = new Pet("cat", "Chipie", "persian", 12, "female", ["Children", "Dogs"], "Tanou", "Prevot", "test5@gmail.com");
 const defaultPet6 = new Pet("cat", "Sacha", "orange", 11, "female", "mixed", ["Dogs"], "Tanou", "Prevot", "test6@gmail.com");
 
-// const pets = [defaultPet1, defaultPet2, defaultPet3, defaultPet4, defaultPet5, defaultPet6];
-const pets = [defaultPet1, defaultPet2, defaultPet3, defaultPet4, defaultPet5];
+const pets = [defaultPet1, defaultPet2, defaultPet3, defaultPet4, defaultPet5, defaultPet6];
+// const pets = [defaultPet1, defaultPet2, defaultPet3, defaultPet4, defaultPet5];
 // const pets = [defaultPet1];
 
 const displayAnimals = () => {
