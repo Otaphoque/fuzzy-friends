@@ -57,3 +57,17 @@ h1 {
     font-size: 36px;
     color: #BC6C25;
 }
+
+input[type=text], textarea {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #FEFAE0;
+    color: #FEFAE0;
+}
+
+input[type=text]:focus, textarea:focus {
+    color: #231F20;
+    background-color: rgba(254, 250, 224, 1);
+    border: 0px;
+    border-bottom: 2px solid #FEFAE0;
+}
