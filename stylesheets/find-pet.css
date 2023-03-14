@@ -59,7 +59,7 @@ h1 {
 }
 
 input[type=text], textarea {
-    background-color: transparent;
+    background-color: rgba(254, 250, 224, 0.3);
     border: 0px;
     border-bottom: 2px solid #FEFAE0;
     color: #FEFAE0;
