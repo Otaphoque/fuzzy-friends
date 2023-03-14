@@ -30,6 +30,8 @@ form {
 textarea {
     resize: vertical;
     max-height: 100px;
+    vertical-align: bottom;
+    margin-bottom: 5px;
 }
 
 p {
